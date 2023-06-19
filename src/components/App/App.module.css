@@ -1,0 +1,55 @@
+/*App Body*/
+.App {
+  text-align: center;
+  font-family: 'EB Garamond';
+}
+
+/* Search Bar Section */
+.AppHeader {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0.5em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: #17153A;
+}
+
+/*Background*/
+.backgroundSearch {
+  color: white;
+  height: auto;
+  background-position: center; 
+  background-size: cover; 
+  position: relative;
+  padding-bottom: 6em;
+}
+
+/*Results Container*/
+.appResults {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2.2rem 4%;
+}
+
+/*Background Image + Overlay */
+.backgroundImg {
+  color: white;
+  height: auto;
+  background-image: url("../../images/aleksandr-popov-JhYnL-BiP18-unsplash.jpg");
+  background-position: center;
+  background-size: cover; 
+  position: relative;
+}
+
+.imgOverlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 6em;
+  padding-bottom: 15%;
+}
+
+/*Text highlight*/
+.highlight {
+  color: #623FB3;
+}

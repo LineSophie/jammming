@@ -1,0 +1,60 @@
+.trackContainer {
+  display: flex;
+  flex: 0 0 calc(50% - 2%);
+  border: 1px solid #1C3031;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: top;
+  text-align: left;
+  background-color: #17153A90;
+  padding-bottom: 1em;
+}
+
+form.formStyle {
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  margin-top: 1.2em !important;
+  padding-bottom: 1.2em !important;
+}
+
+input.namePlaylist {
+  border: 0;
+  border-radius: 0px;
+  box-sizing: border-box;
+  padding: 0 !important;
+  text-align: left;
+  background-color: transparent;
+  margin: 0;
+  color: white;
+  font-size: 3vw;
+  outline: none; 
+  font-weight: bold;
+}
+    
+.playlistBody {
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 100%;
+  text-align: left; 
+}
+
+.btnSave {
+  font-size: 1.2vw;
+  background-color: #623FB3;
+  padding: 1.2em;
+  margin: 2em;
+  border-radius: 20px;
+  color: white;
+  border: 0;
+  text-align: center !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+  width: auto;
+}
+
+.btnSave:hover {
+  background-color: #623FB390;
+}
+
+.center {
+  text-align: center;
+}

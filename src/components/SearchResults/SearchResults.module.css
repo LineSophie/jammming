@@ -1,0 +1,26 @@
+.trackListContainer {
+    display: flex;
+    flex: 0 0 calc(50% - 2%);
+    border: 1px solid #1C3031;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: top;
+    text-align: left;
+    background-color: #17153A90;
+    min-height: 40em;
+    padding-bottom: 1em;
+}
+
+.headerBorder {
+    border-bottom: 1px solid white;
+    padding: 0;
+    margin-top: 1.2em !important;
+    padding-bottom: 1.2em !important;
+}
+
+.trackBody {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 100%;
+    text-align: left; 
+}

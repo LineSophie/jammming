@@ -1,0 +1,43 @@
+.listItem {
+  list-style-type: none;
+  padding: 0;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  text-align: left;
+  flex-grow: 1; 
+  vertical-align: middle;
+}
+
+.imgAlbum {
+  padding: 1em 1em 1em 0;
+  max-width: 20%;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 1.5em; 
+}
+
+.btnStyle {
+  margin-left: auto;
+  float: right;
+  margin-right: 10px;
+  border: 10px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.btnStyle:hover {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.buttonDiv {
+  display: flex;
+  align-items: center;
+}
